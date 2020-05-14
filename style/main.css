@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    display: inline-block;
+    background: black;
+    width: 100%;
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 21px;
+    margin-left: 150px ;
+    width: 79px;
+    height: 27px;
+    background: url(../icon/Logo1.png);
+}
+
+.menu { 
+    display: inline-block;
+    margin-left: 582px;
+}
+
+ul {
+    display: inline-block;
+    padding: 29px 0 31px 0;
+
+}
+
+li {
+    display: inline-block; 
+    font-family: OpenSans-Semibold,AdobeInvisFont,MyriadPro-Regular;
+    font-size: 14px;
+    text-align: right;
+    padding: 0 48px 0 0;
+    color: #ffffff;
+}
